@@ -10,6 +10,19 @@
             "topLevel": true,
             "allAtoms": [
                 {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 174,
+                    "y": 139,
+                    "uniqueID": 514867,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 7
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,

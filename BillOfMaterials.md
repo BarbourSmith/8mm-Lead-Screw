@@ -2,6 +2,7 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Total: |0|$0.00| |
+|8mm Lead Screw|1|$5.00|www.example.com|
+|Total: |1|$5.00| |
 
- 3xCOG MSRP: $0.00
+ 3xCOG MSRP: $15.00

@@ -1,103 +1,100 @@
 {
-    "molecules": [
+    "atomType": "Molecule",
+    "name": "8mm Lead Screw",
+    "x": 0,
+    "y": 0,
+    "uniqueID": 792642,
+    "ioValues": [],
+    "topLevel": true,
+    "allAtoms": [
         {
-            "atomType": "Molecule",
-            "name": "8mm Lead Screw",
-            "x": 0,
-            "y": 0,
-            "uniqueID": 792642,
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.16398243045387995,
+            "y": 0.421455938697318,
+            "uniqueID": 514867,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 8
+                }
+            ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.3235724743777452,
+            "y": 0.4904214559386973,
+            "uniqueID": 719358,
+            "ioValues": [
+                {
+                    "name": "height",
+                    "ioValue": 155
+                }
+            ]
+        },
+        {
+            "atomType": "Color",
+            "name": "Color",
+            "x": 0.5,
+            "y": 0.35249042145593873,
+            "uniqueID": 216537,
             "ioValues": [],
-            "topLevel": true,
-            "allAtoms": [
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 147,
-                    "y": 123,
-                    "uniqueID": 514867,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 8
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 299,
-                    "y": 121,
-                    "uniqueID": 719358,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 200
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Color",
-                    "name": "Color",
-                    "x": 519,
-                    "y": 122,
-                    "uniqueID": 216537,
-                    "ioValues": [],
-                    "selectedColorIndex": "2"
-                },
-                {
-                    "atomType": "Add BOM Tag",
-                    "name": "Add BOM Tag",
-                    "x": 798,
-                    "y": 154,
-                    "uniqueID": 754534,
-                    "ioValues": [],
-                    "BOMitem": {
-                        "BOMitemName": "8mm Lead Screw",
-                        "numberNeeded": 1,
-                        "costUSD": 5,
-                        "source": "https://www.amazon.com/Drillpro-400mm-Lead-Screw-Printer/dp/B017AR5QBS",
-                        "totalNeeded": 0
-                    }
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 163.5,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 514867,
-                    "ap2ID": 719358
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 719358,
-                    "ap2ID": 216537
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 216537,
-                    "ap2ID": 754534
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 754534
-                }
-            ],
-            "fileTypeVersion": 1
+            "selectedColorIndex": "2"
+        },
+        {
+            "atomType": "Add BOM Tag",
+            "name": "Add BOM Tag",
+            "x": 0.6464128843338214,
+            "y": 0.40229885057471265,
+            "uniqueID": 754534,
+            "ioValues": [],
+            "BOMitem": {
+                "BOMitemName": "8mm Lead Screw",
+                "numberNeeded": 1,
+                "costUSD": 5,
+                "source": "https://www.amazon.com/Drillpro-400mm-Lead-Screw-Printer/dp/B017AR5QBS",
+                "totalNeeded": 0
+            }
+        },
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.972913616398243,
+            "y": 0.48659003831417624,
+            "ioValues": []
         }
     ],
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 514867,
+            "ap2ID": 719358
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 719358,
+            "ap2ID": 216537
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 216537,
+            "ap2ID": 754534
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 754534
+        }
+    ],
+    "fileTypeVersion": 1,
+    "filetypeVersion": 1,
     "circleSegmentSize": "0.7"
 }

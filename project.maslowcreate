@@ -28,6 +28,10 @@
             "uniqueID": 719358,
             "ioValues": [
                 {
+                    "name": "geometry",
+                    "ioValue": "atoms/792642/514867Circle"
+                },
+                {
                     "name": "height",
                     "ioValue": 160
                 }
@@ -39,30 +43,26 @@
             "x": 0.5,
             "y": 0.35249042145593873,
             "uniqueID": 216537,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/792642/719358Extrude"
+                }
+            ],
             "selectedColorIndex": "2"
-        },
-        {
-            "atomType": "Add BOM Tag",
-            "name": "Add BOM Tag",
-            "x": 0.6464128843338214,
-            "y": 0.40229885057471265,
-            "uniqueID": 754534,
-            "ioValues": [],
-            "BOMitem": {
-                "BOMitemName": "8mm Lead Screw",
-                "numberNeeded": 1,
-                "costUSD": 5,
-                "source": "https://www.amazon.com/Drillpro-400mm-Lead-Screw-Printer/dp/B017AR5QBS",
-                "totalNeeded": 0
-            }
         },
         {
             "atomType": "Output",
             "name": "Output",
             "x": 0.972913616398243,
             "y": 0.48659003831417624,
-            "ioValues": []
+            "uniqueID": 292841,
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "atoms/792642/216537Color"
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -82,16 +82,10 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 216537,
-            "ap2ID": 754534
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
-            "ap1ID": 754534
+            "ap1ID": 216537,
+            "ap2ID": 292841
         }
     ],
     "fileTypeVersion": 1,

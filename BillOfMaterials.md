@@ -2,7 +2,6 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|8mm Lead Screw|1|$5.00|https://www.amazon.com/Drillpro-400mm-Lead-Screw-Printer/dp/B017AR5QBS|
-|Total: |1|$5.00| |
+|Total: |0|$0.00| |
 
- 3xCOG MSRP: $15.00
+ 3xCOG MSRP: $0.00
